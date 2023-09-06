@@ -1,0 +1,51 @@
+.App-header {
+    background-color: #38495A;
+    list-style-type: none;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .App-header a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .default-text{
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .logo{
+    
+  }
+  
+  .logo a{
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .img-carrinho{
+    width: 2rem;
+    cursor: pointer;
+  }
+
+  .carrinho{
+    position:relative;
+    width: 5rem;
+    height: 2.5rem;
+  }
+
+  .carrinho:hover{
+    border: 1px solid #fff;
+  }
+  .count{
+    display: initial;
+    color: #ffae00;
+    font-size: 1.2rem;
+    position: relative;
+    font-weight: bold;
+    top: 7px;
+    left: 7px;
+  }
